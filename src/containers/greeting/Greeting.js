@@ -3,13 +3,13 @@ import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
 
 export default function Greeting(props) {
   const theme = props.theme;
-  const history = useHistory();
+  // const history = useHistory();
 
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
@@ -37,15 +37,16 @@ export default function Greeting(props) {
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
-                <button
+                <a
                   {...styles}
                   className="button"
-                  onClick={() => {
-                    history.push("/contact");
-                  }}
+                  href="https://drive.google.com/file/d/1LjmOQGEVNlYZZjNFsrMCAaC1TMz_mbQX/view?usp=share_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ padding: "15px 25px" }}
                 >
                   Resume
-                </button>
+                </a>
               </div>
             </div>
           </div>

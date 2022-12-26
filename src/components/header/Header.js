@@ -67,11 +67,16 @@ function Header(props) {
       <div>
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
-            <span style={{ color: theme.text }}></span>
+            {/* <span style={{ color: theme.text }}></span>
             <span className="logo-name" style={{ color: theme.text }}>
               {greeting.logo_name}
             </span>
-            <span style={{ color: theme.text }}></span>
+            <span style={{ color: theme.text }}></span> */}
+            <img
+              src="https://cdn.discordapp.com/attachments/643501117095018506/1057038906341736650/footer.png"
+              alt=""
+              style={{ paddingTop: "5px", width: "300px" }}
+            />
           </NavLink>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">
@@ -122,7 +127,7 @@ function Header(props) {
                 Projects
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 className="cr"
                 to="/contact"
@@ -132,7 +137,7 @@ function Header(props) {
               >
                 Contact and Resume
               </NavLink>
-            </li>
+            </li> */}
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

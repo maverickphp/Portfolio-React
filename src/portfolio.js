@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Fasie-Ul-Haq",
   subTitle: "Front-End Developer, FreeLancer as profession",
   resumeLink:
-    "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
+    "https://drive.google.com/file/d/1LjmOQGEVNlYZZjNFsrMCAaC1TMz_mbQX/view?usp=share_link",
   mail: "mailto:fasih682@outlook.com",
 };
 
@@ -544,7 +544,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile_photo_2.jpeg",
+    profile_image_path: "profile_photo_2.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
