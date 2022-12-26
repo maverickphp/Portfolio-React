@@ -22,8 +22,8 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/vvHacker007/",
-  linkedin: "https://www.linkedin.com/in/vedansh-vijaywargiya/",
+  github: "https://github.com/maverickphp",
+  linkedin: "https://www.linkedin.com/in/maverickphp/",
   gmail: "fasih682@gmail.com",
   // gitlab: "https://gitlab.com/harikanani",
   facebook: "https://www.facebook.com/maverickphp/",
