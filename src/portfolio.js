@@ -9,39 +9,38 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
-  title2: "Vedansh",
-  logo_name: "vedansh.v()",
+  title: "Hi 👋.",
+  title2: "Fasih Ul Haq",
+  logo_name: "</>maverick.php",
   // nickname: "harry / picleric",
-  full_name: "Vedansh Vijaywargiya",
-  subTitle:
-    "Full Stack Developer, Machine Learning Practitioner, Open Source Enthusiast, Life Long Learner.",
+  full_name: "Fasie-Ul-Haq",
+  subTitle: "Front-End Developer, FreeLancer as profession",
   resumeLink:
     "https://drive.google.com/file/d/1wrkG62HyDgbUOjNxexCT891tcqd83_cK/view?usp=sharing",
-  mail: "mailto:im.vedanshvijay2002@gmail.com",
+  mail: "mailto:fasih682@outlook.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/vvHacker007/",
   linkedin: "https://www.linkedin.com/in/vedansh-vijaywargiya/",
-  gmail: "im.vedanshvijay2002@gmail.com",
+  gmail: "fasih682@gmail.com",
   // gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/vedansh.vijaywargiya/",
-  twitter: "https://twitter.com/vedansh_v_/",
-  instagram: "https://www.instagram.com/vedv_2002/",
+  facebook: "https://www.facebook.com/maverickphp/",
+  twitter: "https://twitter.com/maverickphp",
+  instagram: "https://www.instagram.com/maverick.php/",
 };
 
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Front-End Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive User Interfaces and Backend for web applications",
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Creating application backend in Node, Express, Flask, Django and Fast-API",
-        "⚡ Integration of third party services such as Firebase/ AWS / GCP",
+        "⚡ Creating application backend in Node, Express and Fast-API",
+        "⚡ Integration of third party services such as Firebase/ AWS / MongoDB",
       ],
       softwareSkills: [
         {
@@ -94,13 +93,13 @@ const skills = {
             color: "#CB3837",
           },
         },
-        {
-          skillName: "Flask",
-          fontAwesomeClassname: "simple-icons:flask",
-          style: {
-            color: "#000000",
-          },
-        },
+        // {
+        //   skillName: "Flask",
+        //   fontAwesomeClassname:"simple-icons:googleads",
+        //   style: {
+        //     color: "#000000",
+        //   },
+        // },
         {
           skillName: "Django",
           fontAwesomeClassname: "simple-icons:django",
@@ -178,13 +177,13 @@ const skills = {
         //     color: "#207297",
         //   },
         // },
-        // {
-        //   skillName: "Apache",
-        //   fontAwesomeClassname: "simple-icons:apache",
-        //   style: {
-        //     color: "#CA1A22",
-        //   },
-        // },
+        {
+          skillName: "Apache",
+          fontAwesomeClassname: "simple-icons:apache",
+          style: {
+            color: "#CA1A22",
+          },
+        },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -192,13 +191,13 @@ const skills = {
             color: "#E94E32",
           },
         },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
+        // {
+        //   skillName: "C",
+        //   fontAwesomeClassname: "simple-icons:c",
+        //   style: {
+        //     color: "#E94E32",
+        //   },
+        // },
         {
           skillName: "C++",
           fontAwesomeClassname: "simple-icons:cplusplus",
@@ -221,6 +220,7 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Experience hosting and managing websites",
+        "⚡ Experience managed servers along with firewall protocols",
         "⚡ Experience with Continuous Integration",
       ],
       softwareSkills: [
@@ -253,8 +253,8 @@ const skills = {
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "Render",
+          fontAwesomeClassname: "simple-icons:render",
           style: {
             color: "#336791",
           },
@@ -266,13 +266,13 @@ const skills = {
             color: "#47A248",
           },
         },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
+        {
+          skillName: "Google Cloud",
+          fontAwesomeClassname: "simple-icons:googleads",
+          style: {
+            color: "#1488C6",
+          },
+        },
         {
           skillName: "GitHub Actions",
           fontAwesomeClassname: "simple-icons:githubactions",
