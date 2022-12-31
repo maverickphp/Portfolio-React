@@ -36,7 +36,7 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <div className="portfolio-repo-btn-div">
+              <div className="portfolio-repo-btn-div" style={{ padding: "2%" }}>
                 <a
                   {...styles}
                   className="button"
