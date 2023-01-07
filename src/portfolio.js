@@ -482,7 +482,7 @@ const certifications = {
     },
     {
       title: "Pakistan Red Crescent Society",
-      subtitle: "Volunteer",
+      subtitle: "Volunteer+",
       logo_path: "PRCS_Logo.png",
       // certificate_link:
       //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
@@ -645,7 +645,7 @@ const experience = {
           company_url: "https://prcs.org.pk/",
           logo_path: "PRCS_Logo.png",
           duration: "Nov 2020 - Present",
-          location: "SRM IST Kattankulathur",
+          location: "Islamabad",
           description:
             "Participated in many workshops which polished my social skills. Worked as a team on the assigned project which included many tasks etc.",
           color: "#a60000",
