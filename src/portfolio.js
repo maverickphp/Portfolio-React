@@ -130,7 +130,7 @@ const skills = {
         // },
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          fontAwesomeClassname: "logos:java",
           style: {
             color: "#f89820",
           },
@@ -200,14 +200,14 @@ const skills = {
         // },
         {
           skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
+          fontAwesomeClassname: "logos:c-plusplus",
           style: {
             color: "#E94E32",
           },
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
+          fontAwesomeClassname: "logos:python",
           style: {
             color: "#3776AB",
           },
@@ -268,7 +268,7 @@ const skills = {
         },
         {
           skillName: "Google Cloud",
-          fontAwesomeClassname: "simple-icons:googleads",
+          fontAwesomeClassname: "logos:google-cloud",
           style: {
             color: "#1488C6",
           },
@@ -294,6 +294,20 @@ const skills = {
         "⚡ Configured IP Tables",
       ],
       softwareSkills: [
+        {
+          skillName: "Lua.",
+          fontAwesomeClassname: "vscode-icons:file-type-lua",
+          style: {
+            color: "#FF0000",
+          },
+        },
+        {
+          skillName: "FiveM",
+          fontAwesomeClassname: "simple-icons:fivem",
+          style: {
+            color: "#EC6C07",
+          },
+        },
         {
           skillName: "FileZilla",
           fontAwesomeClassname: "simple-icons:filezilla",
@@ -406,13 +420,6 @@ const skills = {
             color: "#AC0DD3",
           },
         },
-        {
-          skillName: "FiveM",
-          fontAwesomeClassname: "simple-icons:fivem",
-          style: {
-            color: "#EC6C07",
-          },
-        },
       ],
     },
   ],
@@ -454,53 +461,52 @@ const degrees = {
 const certifications = {
   certifications: [
     /// COMMENTED BY MAVERICK.PHP ///
+    {
+      title: "Hostollo",
+      subtitle: "ReactJs Front-End Developer",
+      logo_path: "Hostollo_Logo.jpeg",
+      // certificate_link:
+      //   "https://www.linkedin.com/company/hostollo",
+      alt_name: "MongoDB University",
+      // color_code: "#2AAFED",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "COMSATS University Islamabad",
+      subtitle: "E-Gaming Event Manager",
+      logo_path: "COMSATS_Logo1.png",
+      // certificate_link:
+      //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
+      alt_name: "hackathon",
+      color_code: "#1988E5",
+    },
+    {
+      title: "Volunteer",
+      subtitle: "Pakistan Red Crescent Society",
+      logo_path: "PRCS_Logo.png",
+      // certificate_link:
+      //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
+      alt_name: "hackathon",
+      color_code: "#FFFFFF",
+    },
     // {
-    //   title: "Google Cloud",
-    //   subtitle: "Google Cloud Training",
-    //   logo_path: "google_logo.png",
+    //   title: "A300: Atlas Security",
+    //   subtitle: "MongoDB University",
+    //   logo_path: "mongo.png",
     //   certificate_link:
-    //     "https://drive.google.com/file/d/1r0hYt8Pp0N0u_4Tg-poMF1Qv3LkoKVAP/view",
+    //     "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
     //   alt_name: "MongoDB University",
-    //   // color_code: "#2AAFED",
-    //   color_code: "#2AAFED",
+    //   // color_code: "#F6B808",
+    //   color_code: "#47A048",
     // },
-    // {
-    //   title: "Hackathon",
-    //   subtitle: "Backyard Hacks 2.0",
-    //   logo_path: "hackathon1.png",
-    //   // certificate_link:
-    //   //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-    //   alt_name: "hackathon",
-    //   color_code: "#f47e2c",
-    // },
-    // {
-    //   title: "Hackathon",
-    //   subtitle: "HyperHacks",
-    //   logo_path: "hackathon2.png",
-    //   // certificate_link:
-    //   //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-    //   alt_name: "hackathon",
-    //   color_code: "#E2405F",
-    // },
-    // // {
-    // //   title: "A300: Atlas Security",
-    // //   subtitle: "MongoDB University",
-    // //   logo_path: "mongo.png",
-    // //   certificate_link:
-    // //     "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-    // //   alt_name: "MongoDB University",
-    // //   // color_code: "#F6B808",
-    // //   color_code: "#47A048",
-    // // },
-    // {
-    //   title: "Contributor's Hack",
-    //   subtitle: "Hakin Codes",
-    //   logo_path: "HakinCodes.jfif",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/1xvyy1M05lQN-s2VKw_Qvz6E7rPwrK2qm/view?usp=sharing",
-    //   alt_name: "Opensource Event",
-    //   color_code: "#fefd7b",
-    // },
+    {
+      title: "Fiverr.com",
+      subtitle: "Server Developer / Networking Manager ( Level 2)",
+      logo_path: "Fiver_Logo.png",
+      certificate_link: "https://www.fiverr.com/ploofull",
+      alt_name: "Opensource Event",
+      color_code: "#10E57B",
+    },
     // // {
     // //   title: "MLH Local Hack Day: Build",
     // //   subtitle: "Major League Hacking",
@@ -641,7 +647,7 @@ const experience = {
           duration: "Nov 2020 - Present",
           location: "SRM IST Kattankulathur",
           description:
-            "Held numerous workshops and distributed learning content for freshers. Contributed to development of the causefolio website displaying the information about the Code for Cause Community.",
+            "Participated in many workshops which polished my social skills. Worked as a team on the assigned project which included many tasks etc.",
           color: "#a60000",
         },
         // {
@@ -722,10 +728,11 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Mind Space",
-      url: "https://www.mindspace.cf/",
+      name: "TextFreeUserInterface-PKM-Portal",
+      url:
+        "https://github.com/maverickphp/TextFreeUserInterface-PKM-Portal-2.5",
       description:
-        "This is Blogging website where users can create blogs, follow and unfollow other users, get summarized blog reccomendation on their dashboard and have a personalised searching mechanism.",
+        "TextFreeUserInterface-PKM-Portal is a Modified version of the government website PKM website which helps one to interact and easily access the whole website with help of visuals / audio",
       languages: [
         {
           name: "HTML5",
@@ -740,34 +747,49 @@ const projects = {
           iconifyClass: "logos-javascript",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "npm",
+          iconifyClass: "simple-icons:npm",
         },
         {
-          name: "Flask",
-          iconifyClass: "cib-flask",
+          name: "NodeJS",
+          iconifyClass: "simple-icons:node-dot-js",
         },
       ],
     },
     {
       id: "1",
-      name: "Youtube Downloader",
-      url: "https://github.com/vvHacker007/Youtube-Downloader/",
+      name: "Text Analyzer",
+      url: "https://github.com/maverickphp/TextAnalayzer-React",
       description:
-        "A desktop GUI which can be used to download youtube videos and playlist with desired quality and type on desktop.",
+        "A text analyzer app based on React which can be used to analyze text or modify it according to your means. It consists of many features like captilizing, speaking a word, replacing several words etc...",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "npm",
+          iconifyClass: "simple-icons:npm",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "simple-icons:node-dot-js",
         },
       ],
     },
     {
       id: "2",
-      name: "Tune In",
-      url: "https://github.com/vvHacker007/Tune-In",
-      description:
-        "Tune in is a collaborative music playing system where multiple guests can join a room and enjoy the song being played. Guests can pause and vote to skip the current song.",
+      name: "FiveM Scoreboard",
+      url: "https://github.com/maverickphp/mvx_scoreboard",
+      description: "Better UI Scoreboard Script for FiveM",
       languages: [
         {
           name: "HTML5",
@@ -782,21 +804,16 @@ const projects = {
           iconifyClass: "logos-javascript",
         },
         {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Django",
-          iconifyClass: "logos-django",
+          name: "Lua",
+          iconifyClass: "vscode-icons:file-type-lua",
         },
       ],
     },
     {
       id: "3",
-      name: "Event Scheduler",
-      url: "https://github.com/vvHacker007/Event-Scheduler",
-      description:
-        "It is an all-purpose scheduler software. It is designed to monitor all the activities and give appropriate reminders for them.",
+      name: "FiveM Loading Screen",
+      url: "https://github.com/maverickphp/mvx-loading",
+      description: "Updated Version of Loading Screen for FiveM",
       languages: [
         {
           name: "HTML5",
@@ -811,62 +828,38 @@ const projects = {
           iconifyClass: "logos-javascript",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
+          name: "Lua",
+          iconifyClass: "vscode-icons:file-type-lua",
         },
       ],
     },
     {
       id: "4",
-      name: "Movie Reccomendation System",
-      url: "https://github.com/vvHacker007/Movie-Recommendation-Systems",
+      name: "Portfolio based on ReactJS",
+      url: "https://github.com/maverickphp/Portfolio-React",
       description:
         "Made three python kernels explaining and implementing the three different types of movie recommender systems.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
         },
         {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
         },
       ],
     },
     {
       id: "3",
-      name: "Login Authenticator",
-      url: "https://github.com/vvHacker007/Login-Authenticator",
-      description: "Made a template for a Login Authenticator using Flask ",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Calculator",
-      url: "https://github.com/vvHacker007/Calculator",
+      name: "MRI_QC_Project",
+      url: "https://github.com/maverickphp/MRI_QC_Project",
       description:
-        "Made a GUI based Calculator. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
+        "Calculates and provides information for quality check of functional MRI data. Documentation is available here",
       languages: [
         {
           name: "Python",
@@ -874,206 +867,219 @@ const projects = {
         },
       ],
     },
-    {
-      id: "5",
-      name: "Notepad",
-      url: "https://github.com/vvHacker007/Notepad",
-      description:
-        "Made a GUI based Notepad. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Tetris",
-      url: "https://github.com/vvHacker007/Tetris",
-      description: "Made a GUI based arcade game Tetris using pygame.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Steganography",
-      url: "https://github.com/vvHacker007/Steganography",
-      description:
-        "A CLI tool to conceal messages within a file, text, image, or video.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Mini Paint",
-      url: "https://github.com/vvHacker007/Mini-Paint",
-      description: "GUI based Mini Paint Application.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Speedtest",
-      url: "https://github.com/vvHacker007/Speed-test",
-      description:
-        "An internet speed testing application which can notify about the download speed, upload speed, and also the reaction time of the connection.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Cat Classifier",
-      url: "https://github.com/vvHacker007/Cat-Classifier",
-      description:
-        "Binary Cat Classifier made by hard coding Neural Networks in Python without using libraries such as Tensorflow or keras.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Snake",
-      url: "https://github.com/vvHacker007/Snake",
-      description:
-        "A snake game which covers all the basic features like score, high score and an automated speed increase simultaneously when the snake eats the food.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "Score Predictor",
-      url: "https://score-predictor-app.herokuapp.com/",
-      description:
-        "Predicts students score based on the number of hours the student puts in it.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "13",
-      name: "Blood Donation Predictor",
-      url: "https://blood-donation-predictor-app.herokuapp.com/",
-      description:
-        "Predicts if one is ready to donate blood based on the user's blood donation history.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "14",
-      name: "Credit-Card Default Predictor",
-      url: "https://default-predictor-app.herokuapp.com/",
-      description:
-        "Predicts whether user's credit card would be defaulted or not based on the user's bank statements and history.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "15",
-      name: "Portfolio Website",
-      url: "https://vvhacker007.github.io/Portfolio/",
-      description: "You are stalking it right now 😉",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
+    // {
+    //   id: "4",
+    //   name: "Calculator",
+    //   url: "https://github.com/vvHacker007/Calculator",
+    //   description:
+    //     "Made a GUI based Calculator. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "5",
+    //   name: "Notepad",
+    //   url: "https://github.com/vvHacker007/Notepad",
+    //   description:
+    //     "Made a GUI based Notepad. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "6",
+    //   name: "Tetris",
+    //   url: "https://github.com/vvHacker007/Tetris",
+    //   description: "Made a GUI based arcade game Tetris using pygame.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "7",
+    //   name: "Steganography",
+    //   url: "https://github.com/vvHacker007/Steganography",
+    //   description:
+    //     "A CLI tool to conceal messages within a file, text, image, or video.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "OpenCV",
+    //       iconifyClass: "logos-opencv",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "8",
+    //   name: "Mini Paint",
+    //   url: "https://github.com/vvHacker007/Mini-Paint",
+    //   description: "GUI based Mini Paint Application.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "9",
+    //   name: "Speedtest",
+    //   url: "https://github.com/vvHacker007/Speed-test",
+    //   description:
+    //     "An internet speed testing application which can notify about the download speed, upload speed, and also the reaction time of the connection.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "10",
+    //   name: "Cat Classifier",
+    //   url: "https://github.com/vvHacker007/Cat-Classifier",
+    //   description:
+    //     "Binary Cat Classifier made by hard coding Neural Networks in Python without using libraries such as Tensorflow or keras.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Jupyter Notebook",
+    //       iconifyClass: "logos-jupyter",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "11",
+    //   name: "Snake",
+    //   url: "https://github.com/vvHacker007/Snake",
+    //   description:
+    //     "A snake game which covers all the basic features like score, high score and an automated speed increase simultaneously when the snake eats the food.",
+    //   languages: [
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "12",
+    //   name: "Score Predictor",
+    //   url: "https://score-predictor-app.herokuapp.com/",
+    //   description:
+    //     "Predicts students score based on the number of hours the student puts in it.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Flask",
+    //       iconifyClass: "cib-flask",
+    //     },
+    //     {
+    //       name: "Jupyter Notebook",
+    //       iconifyClass: "logos-jupyter",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "13",
+    //   name: "Blood Donation Predictor",
+    //   url: "https://blood-donation-predictor-app.herokuapp.com/",
+    //   description:
+    //     "Predicts if one is ready to donate blood based on the user's blood donation history.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Jupyter Notebook",
+    //       iconifyClass: "logos-jupyter",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "14",
+    //   name: "Credit-Card Default Predictor",
+    //   url: "https://default-predictor-app.herokuapp.com/",
+    //   description:
+    //     "Predicts whether user's credit card would be defaulted or not based on the user's bank statements and history.",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "Python",
+    //       iconifyClass: "logos-python",
+    //     },
+    //     {
+    //       name: "Jupyter Notebook",
+    //       iconifyClass: "logos-jupyter",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: "15",
+    //   name: "Portfolio Website",
+    //   url: "https://vvhacker007.github.io/Portfolio/",
+    //   description: "You are stalking it right now 😉",
+    //   languages: [
+    //     {
+    //       name: "HTML5",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS3",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //   ],
+    // },
   ],
 };
 
