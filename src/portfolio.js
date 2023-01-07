@@ -13,7 +13,7 @@ const greeting = {
   title2: "Fasih Ul Haq",
   logo_name: "</>maverick.php",
   // nickname: "harry / picleric",
-  full_name: "Fasie-Ul-Haq",
+  full_name: "Fasih-Ul-Haq",
   subTitle: "Front-End Developer, Server Developer, FreeLancer as profession",
   resumeLink:
     "https://drive.google.com/file/d/1LjmOQGEVNlYZZjNFsrMCAaC1TMz_mbQX/view?usp=share_link",
@@ -453,109 +453,111 @@ const degrees = {
 
 const certifications = {
   certifications: [
-    {
-      title: "Google Cloud",
-      subtitle: "Google Cloud Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1r0hYt8Pp0N0u_4Tg-poMF1Qv3LkoKVAP/view",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Hackathon",
-      subtitle: "Backyard Hacks 2.0",
-      logo_path: "hackathon1.png",
-      // certificate_link:
-      //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#f47e2c",
-    },
-    {
-      title: "Hackathon",
-      subtitle: "HyperHacks",
-      logo_path: "hackathon2.png",
-      // certificate_link:
-      //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
-    },
+    /// COMMENTED BY MAVERICK.PHP ///
     // {
-    //   title: "A300: Atlas Security",
-    //   subtitle: "MongoDB University",
-    //   logo_path: "mongo.png",
+    //   title: "Google Cloud",
+    //   subtitle: "Google Cloud Training",
+    //   logo_path: "google_logo.png",
     //   certificate_link:
-    //     "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
+    //     "https://drive.google.com/file/d/1r0hYt8Pp0N0u_4Tg-poMF1Qv3LkoKVAP/view",
     //   alt_name: "MongoDB University",
-    //   // color_code: "#F6B808",
-    //   color_code: "#47A048",
+    //   // color_code: "#2AAFED",
+    //   color_code: "#2AAFED",
     // },
-    {
-      title: "Contributor's Hack",
-      subtitle: "Hakin Codes",
-      logo_path: "HakinCodes.jfif",
-      certificate_link:
-        "https://drive.google.com/file/d/1xvyy1M05lQN-s2VKw_Qvz6E7rPwrK2qm/view?usp=sharing",
-      alt_name: "Opensource Event",
-      color_code: "#fefd7b",
-    },
     // {
-    //   title: "MLH Local Hack Day: Build",
-    //   subtitle: "Major League Hacking",
-    //   logo_path: "mlh-logo.svg",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-    //   alt_name: "Google",
-    //   color_code: "#fe0037",
+    //   title: "Hackathon",
+    //   subtitle: "Backyard Hacks 2.0",
+    //   logo_path: "hackathon1.png",
+    //   // certificate_link:
+    //   //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
+    //   alt_name: "hackathon",
+    //   color_code: "#f47e2c",
     // },
-    {
-      title: "Olympiad",
-      subtitle: "Ramanujan Mathematics Olympiad",
-      logo_path: "Olympiad.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
-    {
-      title: "Competitive Programming",
-      subtitle: "Reply Challenges",
-      logo_path: "Reply.jfif",
-      certificate_link:
-        "https://drive.google.com/file/d/1KamrXJPTrF3zfMuEerbSnFUjOkt-agKT/view",
-      alt_name: "Reply",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Competitive Programming",
-      subtitle: "Google Hash Code",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
-      alt_name: "Reply",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Training",
-      subtitle: "30 Days of Open Source",
-      logo_path: "CFC.jfif",
-      certificate_link:
-        "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#a60000",
-    },
-    {
-      title: "Training",
-      subtitle: "Git Learning",
-      logo_path: "Progate.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
-      alt_name: "Reply",
-      color_code: "#88e7ce",
-    },
+    // {
+    //   title: "Hackathon",
+    //   subtitle: "HyperHacks",
+    //   logo_path: "hackathon2.png",
+    //   // certificate_link:
+    //   //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
+    //   alt_name: "hackathon",
+    //   color_code: "#E2405F",
+    // },
+    // // {
+    // //   title: "A300: Atlas Security",
+    // //   subtitle: "MongoDB University",
+    // //   logo_path: "mongo.png",
+    // //   certificate_link:
+    // //     "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
+    // //   alt_name: "MongoDB University",
+    // //   // color_code: "#F6B808",
+    // //   color_code: "#47A048",
+    // // },
+    // {
+    //   title: "Contributor's Hack",
+    //   subtitle: "Hakin Codes",
+    //   logo_path: "HakinCodes.jfif",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1xvyy1M05lQN-s2VKw_Qvz6E7rPwrK2qm/view?usp=sharing",
+    //   alt_name: "Opensource Event",
+    //   color_code: "#fefd7b",
+    // },
+    // // {
+    // //   title: "MLH Local Hack Day: Build",
+    // //   subtitle: "Major League Hacking",
+    // //   logo_path: "mlh-logo.svg",
+    // //   certificate_link:
+    // //     "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
+    // //   alt_name: "Google",
+    // //   color_code: "#fe0037",
+    // // },
+    // {
+    //   title: "Olympiad",
+    //   subtitle: "Ramanujan Mathematics Olympiad",
+    //   logo_path: "Olympiad.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
+    //   alt_name: "Postman",
+    //   // color_code: "#f36c3d",
+    //   color_code: "#fffbf3",
+    // },
+    // {
+    //   title: "Competitive Programming",
+    //   subtitle: "Reply Challenges",
+    //   logo_path: "Reply.jfif",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1KamrXJPTrF3zfMuEerbSnFUjOkt-agKT/view",
+    //   alt_name: "Reply",
+    //   color_code: "#2AAFED",
+    // },
+    // {
+    //   title: "Competitive Programming",
+    //   subtitle: "Google Hash Code",
+    //   logo_path: "google_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
+    //   alt_name: "Reply",
+    //   color_code: "#2AAFED",
+    // },
+    // {
+    //   title: "Training",
+    //   subtitle: "30 Days of Open Source",
+    //   logo_path: "CFC.jfif",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
+    //   alt_name: "Postman",
+    //   // color_code: "#f36c3d",
+    //   color_code: "#a60000",
+    // },
+    // {
+    //   title: "Training",
+    //   subtitle: "Git Learning",
+    //   logo_path: "Progate.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
+    //   alt_name: "Reply",
+    //   color_code: "#88e7ce",
+    // },
+    /// COMMENTED BY MAVERICK.PHP ///
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -580,28 +582,40 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Machine Learning Intern",
-          company: "Technocolabs",
-          company_url: "https://technocolabs.com/",
-          logo_path: "Technocolabs.jfif",
-          duration: "Sept 2020 - Oct 2020",
+          title: "Server Developer / Networking Manager",
+          company: "Fiverr.com",
+          company_url: "https://www.fiverr.com",
+          logo_path: "Fiver_Logo.png",
+          duration: "April 2020 - Present",
           location: "Remote",
-          description: `Analysed the changes before and after people started using sanitizers using the covid-19 dataset. Built and analysed several predictive models for defaulting user’s credit card and deployed it on a full-stack website using Flask. Made a predictive model for Blood Donation for Future Expectancy and deployed it on a fully-fledged website. Increased productivity and problem-solving technics by 20%. 
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
-        },
-        {
-          title: "Data Science Intern",
-          company: "The Sparks Foundation",
-          company_url: "hhttps://thesparksfoundation.info/",
-          logo_path: "TSF.png",
-          duration: "Aug 2020 - Sept 2020",
-          location: "Remote",
-          description: `Developed predictive models and deployed it on a full-stack website using Flask. Used Boxplot, Heatmap and Confusion Matrix for data visualization. Deep analysis on the superstore dataset using Bar Plots, Bar Charts, Pair Plots and Joint Plots for specific regions.
+          description: `FiveM is a modification for Grand Theft Auto V enabling you to play multiplayer on customized dedicated servers, powered by Cfx.re. Polished my languages such as HTML, CSS, Javascript, Node.js, MySQL, Lua, etc. WinSCP, FilleZilla, HeidiSQL, phpMyAdmin, RDP, VSCODE, OpenIV, 3DSMax, XAMP
           `,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
+          color: "#EC0718",
+        },
+        {
+          title: "Front-End Developer",
+          company: "Hostollo",
+          company_url: "https://www.linkedin.com/company/hostollo",
+          logo_path: "Hostollo_Logo.jpeg",
+          duration: "April 2021 - March 2022",
+          location: "Remote",
+          description: `Developed website by using React library by JavaScript framework. Learned many things related to web development along with backend of website. Made my grip with git, npm and learnt all commands those are needed for web development for front-end as well as backend.
+          `,
+          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          color: "#EC0718",
+        },
+        {
+          title: "Server Handler",
+          company: "Travel Ways International",
+          company_url: "https://travelways.pk/",
+          logo_path: "TW_Logo.jpeg",
+          duration: "Aug 2020 - Oct 2021",
+          location: "Remote",
+          description: `Handle all firewall ports/protection which were connected to their servers & Created a layer to protect their website from DDOS Attacks..
+          `,
+          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          color: "#EC0718",
         },
       ],
     },
@@ -617,7 +631,7 @@ const experience = {
           location: "SRM IST Kattankulathur",
           description:
             "Member responsibilities were to help students in project planning, review issues and pull requests, ensure smooth progress and help juniors out in their difficulties.",
-          color: "#4285F4",
+          color: "#a60000",
         },
         {
           title: "Campus Leader",
@@ -630,50 +644,50 @@ const experience = {
             "Held numerous workshops and distributed learning content for freshers. Contributed to development of the causefolio website displaying the information about the Code for Cause Community.",
           color: "#a60000",
         },
-        {
-          title: "Machine Learning - Research associate",
-          company: "Next Tech Lab",
-          company_url: "https://nextech.io/",
-          logo_path: "NTL.jfif",
-          duration: "Oct 2020 - Present",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Associate responsibilities were to build fast and efficient machine learning models, have talks on research topics related to computer vision and deep learning. Build team projects and intract with fellow members and ensure smooth progress and help juniors out in their difficulties.",
-          color: "#62cff0",
-        },
-        {
-          title: "Campus Ambassador",
-          company: "Bagcampus",
-          company_url: "https://bagcampus.in/",
-          logo_path: "Bagcampus.jpg",
-          duration: "Dec 2020 - May 2021",
-          location: "Remote",
-          description:
-            "Spread Awareness of new Technologies and Companies and new Opportunities to Students and Grow Bagcampus Community.",
-          color: "#0059c9",
-        },
-        {
-          title: "Volunteer",
-          company: "Google Crowdsource",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "GCS.jfif",
-          duration: "Sept 2020 - Present",
-          location: "Remote",
-          description:
-            "As a member of the global Crowdsource community one can gain recognition from other Crowdsourcers and Google.",
-          color: "#ffffff",
-        },
-        {
-          title: "Student Volunteer",
-          company: "National Service Scheme",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "NSS.jfif",
-          duration: "Dec 2019 - May 2020",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#282b6c",
-        },
+        // {
+        //   title: "Machine Learning - Research associate",
+        //   company: "Next Tech Lab",
+        //   company_url: "https://nextech.io/",
+        //   logo_path: "NTL.jfif",
+        //   duration: "Oct 2020 - Present",
+        //   location: "SRM IST Kattankulathur",
+        //   description:
+        //     "Associate responsibilities were to build fast and efficient machine learning models, have talks on research topics related to computer vision and deep learning. Build team projects and intract with fellow members and ensure smooth progress and help juniors out in their difficulties.",
+        //   color: "#62cff0",
+        // },
+        // {
+        //   title: "Campus Ambassador",
+        //   company: "Bagcampus",
+        //   company_url: "https://bagcampus.in/",
+        //   logo_path: "Bagcampus.jpg",
+        //   duration: "Dec 2020 - May 2021",
+        //   location: "Remote",
+        //   description:
+        //     "Spread Awareness of new Technologies and Companies and new Opportunities to Students and Grow Bagcampus Community.",
+        //   color: "#0059c9",
+        // },
+        // {
+        //   title: "Volunteer",
+        //   company: "Google Crowdsource",
+        //   company_url: "https://indiaenvironment.org/",
+        //   logo_path: "GCS.jfif",
+        //   duration: "Sept 2020 - Present",
+        //   location: "Remote",
+        //   description:
+        //     "As a member of the global Crowdsource community one can gain recognition from other Crowdsourcers and Google.",
+        //   color: "#ffffff",
+        // },
+        // {
+        //   title: "Student Volunteer",
+        //   company: "National Service Scheme",
+        //   company_url: "https://indiaenvironment.org/",
+        //   logo_path: "NSS.jfif",
+        //   duration: "Dec 2019 - May 2020",
+        //   location: "SRM IST Kattankulathur",
+        //   description:
+        //     "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+        //   color: "#282b6c",
+        // },
       ],
     },
   ],
