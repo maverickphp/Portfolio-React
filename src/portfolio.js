@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "</>maverick.php",
   // nickname: "harry / picleric",
   full_name: "Fasie-Ul-Haq",
-  subTitle: "Front-End Developer, FreeLancer as profession",
+  subTitle: "Front-End Developer, Server Developer, FreeLancer as profession",
   resumeLink:
     "https://drive.google.com/file/d/1LjmOQGEVNlYZZjNFsrMCAaC1TMz_mbQX/view?usp=share_link",
   mail: "mailto:fasih682@outlook.com",
@@ -282,24 +282,171 @@ const skills = {
         },
       ],
     },
+
+    {
+      title: "Server Developer (FiveM)",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Develop servers on cloud plateforms such as linux, windows etc.",
+        "⚡ Configured servers according to client's liking",
+        "⚡ Integration of FiveM & phpMyAdmins with Firewall Protocols",
+        "⚡ Forwarding FireWall Rules according to TCP/UDP Protocols",
+        "⚡ Configured IP Tables",
+      ],
+      softwareSkills: [
+        {
+          skillName: "FileZilla",
+          fontAwesomeClassname: "simple-icons:filezilla",
+          style: {
+            color: "#FF0000",
+          },
+        },
+        {
+          skillName: "Visual Studio Code",
+          fontAwesomeClassname: "vscode-icons:file-type-vscode",
+          style: {
+            color: "#38AFBB",
+          },
+        },
+        {
+          skillName: "phpMyAdmin",
+          fontAwesomeClassname: "simple-icons:phpmyadmin",
+          style: {
+            color: "#B1A5A5",
+          },
+        },
+        {
+          skillName: "Remote Desktop Connection",
+          fontAwesomeClassname: "mdi:remote-desktop",
+          style: {
+            color: "#0C27E9",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "logos:aws",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "Windows Server",
+          fontAwesomeClassname: "ion:logo-windows",
+          style: {
+            color: "#1797E0",
+          },
+        },
+        {
+          skillName: "Google Cloud",
+          fontAwesomeClassname: "logos:google-cloud",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "SSH",
+          fontAwesomeClassname: "mdi:ssh",
+          style: {
+            color: "#4F4848",
+          },
+        },
+        {
+          skillName: "XAMPP",
+          fontAwesomeClassname: "logos:xampp",
+          style: {
+            color: "#4F4848",
+          },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Ubuntu",
+          fontAwesomeClassname: "logos:ubuntu",
+          style: {
+            color: "#4F4848",
+          },
+        },
+        {
+          skillName: "Apache",
+          fontAwesomeClassname: "simple-icons:apache",
+          style: {
+            color: "#CA1A22",
+          },
+        },
+        {
+          skillName: "Sublime Text",
+          fontAwesomeClassname: "logos:sublimetext-icon",
+          style: {
+            color: "#CA1A22",
+          },
+        },
+        {
+          skillName: "Firewall Rules",
+          fontAwesomeClassname: "carbon:firewall",
+          style: {
+            color: "#E7460E",
+          },
+        },
+        {
+          skillName: "Winrar",
+          fontAwesomeClassname: "emojione-monotone:books",
+          style: {
+            color: "#AC0DD3",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "logos:javascript",
+          style: {
+            color: "#AC0DD3",
+          },
+        },
+        {
+          skillName: "FiveM",
+          fontAwesomeClassname: "simple-icons:fivem",
+          style: {
+            color: "#EC6C07",
+          },
+        },
+      ],
+    },
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "SRM Institute of Science and Technology",
-      subtitle: "Bachelors in Computer Science and Engineering",
-      logo_path: "SRM_Logo.png",
+      title: "COMSATS University Islamabad",
+      subtitle: "Bachelors in Computer Science",
+      logo_path: "COMSATS_Logo.png",
       alt_name: "SSEC",
       duration: "2019 - 2023",
       descriptions: [
-        "⚡  I'm currently pursuing my Bachelors in Computer Science and Engineering.",
+        "⚡  I'm currently pursuing my Bachelors in Computer Science.",
+        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
+        "⚡ I have also completed various online courses for Backend , Web & E-Commerce Projects etc.",
+        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+      ],
+      website_link: "https://www.comsats.edu.pk/",
+    },
+    {
+      title: "Hamza Army Public College, Hamza Camp",
+      subtitle: "FSc Pre- Engineering",
+      logo_path: "APS_Logo.png",
+      alt_name: "SSEC",
+      duration: "2016 - 2018",
+      descriptions: [
+        "⚡  Completed my Pre-Engineering with first division from mentioned college.",
         // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        // "⚡ I have also completed various online courses for Backend , Web & E-Commerce Projects etc.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "https://www.srmist.edu.in/",
+      website_link: "http://www.hamza.edu.pk/",
     },
   ],
 };

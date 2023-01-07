@@ -73,7 +73,7 @@ function Header(props) {
             </span>
             <span style={{ color: theme.text }}></span> */}
             <img
-              src="https://cdn.discordapp.com/attachments/643501117095018506/1057038906341736650/footer.png"
+              src="https://cdn.discordapp.com/attachments/689754044054372375/1061256797362593882/logo.png"
               alt=""
               style={{ paddingTop: "5px", width: "300px" }}
             />
