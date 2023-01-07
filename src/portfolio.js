@@ -481,8 +481,8 @@ const certifications = {
       color_code: "#1988E5",
     },
     {
-      title: "Volunteer",
-      subtitle: "Pakistan Red Crescent Society",
+      title: "Pakistan Red Crescent Society",
+      subtitle: "Volunteer",
       logo_path: "PRCS_Logo.png",
       // certificate_link:
       //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
