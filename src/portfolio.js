@@ -623,21 +623,21 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "R&D Member",
-          company: "Webarch Club",
-          company_url: "https://www.webarchsrm.com/",
-          logo_path: "Webarch.jfif",
-          duration: "Mar 2020 - Nov 2020",
-          location: "SRM IST Kattankulathur",
+          title: "E-Gaming Event Manager",
+          company: "Comsats University Islamabad",
+          company_url: "https://www.comsats.edu.pk/",
+          logo_path: "COMSATS_Logo1.png",
+          duration: "Mar 2019 - March 2022",
+          location: "Islamabad",
           description:
-            "Member responsibilities were to help students in project planning, review issues and pull requests, ensure smooth progress and help juniors out in their difficulties.",
+            "Managed the whole e-gaming event as it was hosted for many universities from many cities. Lead the whole management team to make it perfect as always.",
           color: "#a60000",
         },
         {
-          title: "Campus Leader",
-          company: "Code For Cause",
-          company_url: "https://www.codecau.se/",
-          logo_path: "CFC.jfif",
+          title: "Volunteer",
+          company: "Pakistan Red crescent Society",
+          company_url: "https://prcs.org.pk/",
+          logo_path: "PRCS_Logo.png",
           duration: "Nov 2020 - Present",
           location: "SRM IST Kattankulathur",
           description:
